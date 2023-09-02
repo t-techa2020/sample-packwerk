@@ -1,1 +1,3 @@
 enforce_dependencies: true
+  - app/packages/rails_shims
+  - app/packages/rooms
