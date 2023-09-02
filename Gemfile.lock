@@ -147,6 +147,11 @@ GEM
       parser
       sorbet-runtime (>= 0.5.9914)
       zeitwerk (>= 2.6.1)
+    packwerk-extensions (0.1.7)
+      packwerk (>= 2.2.1)
+      railties (>= 6.0.0)
+      sorbet-runtime
+      zeitwerk
     parallel (1.23.0)
     parser (3.2.2.3)
       ast (~> 2.4.1)
@@ -249,6 +254,7 @@ DEPENDENCIES
   importmap-rails
   jbuilder
   packwerk
+  packwerk-extensions
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.3)
   redis (~> 4.0)
